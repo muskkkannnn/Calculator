@@ -1,4 +1,4 @@
-#version 1
+# from version 1
 from art import logo
 print(logo)
 
@@ -21,21 +21,7 @@ operations = {
     "/" : div
 }
 
-# num1 = int(input("What's the first number?: "))
-
-# for symbol in operations:
-#     print(symbol)
-
-# operation_symbol = input("Pick an operation: ")
-# calculation_function = operations[operation_symbol]
-
-# num2 = int(input("What's the second number?: "))
-
-# answer = calculation_function(num1, num2)
-# print(f"{num1} {operation_symbol} {num2} = {answer}")
-
 #version 2
-
 def calculator():
     num1 = float(input("What's the first number?: "))
 
